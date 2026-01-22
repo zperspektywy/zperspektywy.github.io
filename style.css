@@ -161,9 +161,9 @@ a { color: var(--accent); text-decoration: none; }
     }
   }
 
-  .hero-omnie,
+  /*.hero-omnie,*/
   .hero-kontakt {
-    background-image: url("img/makro-zdjecie-2-mobile.jpg"); /* ścieżka do zdjęcia */
+    background-image: url("img/makro-zdjecie-1-mobile.jpg");
     background-color: rgba(0,0,0,0.0);
 
     .hero-image {
@@ -519,6 +519,8 @@ html, body {
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    position: relative;
+    top: auto;
   }
 }
 
@@ -803,7 +805,7 @@ html, body {
     height: 62px;
   }
 
-  .contact-icon svg {
+  /*.contact-icon*/ svg {
     width: 28px;
     height: 28px;
   }
@@ -1032,6 +1034,16 @@ textarea:focus {
   .site-nav { padding: 5px;}
   .arrow.left { left: 20px; color: var(--accent); }
   .arrow.right { right: 20px; color: var(--accent); }
+
+  .hero-omnie,
+  .hero-kontakt {
+    background-image: url("img/makro-zdjecie-1-mobile.jpg"); /* ścieżka do zdjęcia */
+    background-color: rgba(0,0,0,0.0);
+
+    .hero-image {
+      margin: 0 auto;
+    }
+  }
 }
 
 @media (max-width: 332px) {
