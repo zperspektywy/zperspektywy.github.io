@@ -1026,6 +1026,7 @@ textarea:focus {
   .nav-toggle { display:block; }
   .site-nav ul { display:none; background: var(--bg); position: absolute; right: 24px; top: 64px; border:1px solid var(--line); border-radius:12px; padding: 10px; }
   .site-nav ul.open { display:flex; flex-direction: column; gap:10px; }
+  .gallery-submenu { position: relative; top: auto; }
 }
 
 @media (max-width: 640px) {
