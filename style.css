@@ -1,5 +1,5 @@
 :root {
-  --bg: #262626;
+  --bg: #0d0f0e;
   --text: #ececec;
   --muted: #c9c9cf;
   --accent: #26c6da;
@@ -110,7 +110,7 @@ a { color: var(--accent); text-decoration: none; }
 .hero { padding: 28px 0 8px; border-bottom:1px solid var(--line); 
       width: 100%;                /* pełna szerokość okna */
       min-height: 90vh;          /* 100vh wysokość = całe okno (viewport height) */
-      background-image: url("img/ZP-tlo-index-3.jpg"); /* ścieżka do zdjęcia */
+      background-image: url("img/zdjecie-index-desktop.jpg"); /* ścieżka do zdjęcia */
       background-size: cover;     /* dopasowanie zdjęcia do sekcji */
       background-position: center;/* wyśrodkowanie zdjęcia */
       background-repeat: no-repeat;/* brak powtarzania */
@@ -125,14 +125,14 @@ a { color: var(--accent); text-decoration: none; }
 
 /*to jest zdjęcie na całe tło w zakładce "o mnie" zachowane wszyskie właściwości z index tylko podmienione zdjęcie i zmniejszona jego intensywność*/
 .hero-omnie { 
-   background-image: url("img/makro-zdjecie-1.jpg");    /* ścieżka do zdjęcia */
+   background-image: url("img/zdjecie-kontakt-desktop.jpg");    /* ścieżka do zdjęcia */
    background-color: rgba(0,0,0,0.6);
    background-blend-mode: multiply;
 } 
 
 /*to jest zdjęcie na całe tło w zakładce "kontakt" zachowane wszyskie właściwości z index tylko podmienione zdjęcie i zmniejszona jego intensywność*/
 .hero-kontakt { 
-   background-image: url("img/makro-zdjecie-5.jpg");    /* ścieżka do zdjęcia */
+   background-image: url("img/zdjecie-kontakt-desktop.jpg");    /* ścieżka do zdjęcia */
    background-color: rgba(0,0,0,0.6);
    background-blend-mode: multiply;
 } 
@@ -146,7 +146,7 @@ a { color: var(--accent); text-decoration: none; }
   height: 280px;
   object-fit: cover;
   border-radius: 50%;          /* okrągłe zdjęcie */
-  border: 3px solid var(--line);
+  border: 3px solid var(--text);
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
 /*tak było { width:100%; border-radius:25%; border:3px solid var(--line); }*/
