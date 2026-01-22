@@ -542,7 +542,7 @@ html, body {
 #portrety,
 #grafika-uzytkowa,
 #swiat-wokol {
-  scroll-margin-top: 230px; /* dopasuj do wysokości głównego menu + podmenu */
+  scroll-margin-top: 0px; /* dopasuj do wysokości głównego menu + podmenu */
 }
 }
 
@@ -554,12 +554,9 @@ html, body {
 #portrety,
 #grafika-uzytkowa,
 #swiat-wokol {
-    scroll-margin-top: 230px;
+    scroll-margin-top: 0px;
   }
 }
-
-
-
 
 
 
