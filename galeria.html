@@ -5,25 +5,38 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Z Perspektywy — fotografia i projektowanie</title>
+
   <link rel="icon" type="image/png" href="img/favicon.png">
   <meta name="description"
     content="Naturalne portrety, dopracowane produkty i spójny branding. Studio Z Perspektywy tworzy fotografię oraz materiały marketingowe i cyfrowe dla marek i klientów indywidualnych, wspierając ich w budowaniu skutecznej komunikacji wizualnej.">
-  <link href="style.css" rel="stylesheet" />
+
+  <!-- Style globalne -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Style galerii -->
+  <link rel="stylesheet" href="css/gallery.css">
 </head>
 
 <body>
+
+  <!-- HEADER -->
   <header class="site-header">
     <div class="wrap">
-      <a href="index.html"><img src="img/z-perspektywy-logo.png" class="logo" alt="Z PERSPEKTYWY"></a>
+      <a href="index.html">
+        <img src="img/z-perspektywy-logo.png" class="logo" alt="Z PERSPEKTYWY">
+      </a>
+
       <nav class="site-nav" aria-label="Główna nawigacja">
         <button class="nav-toggle" aria-label="Otwórz menu">
           <span class="hamburger"></span>
         </button>
         <ul id="nav-links">
-          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="galeria.html" class="active">Galeria</a></li>
           <li><a href="oferta.html">Oferta</a></li>
           <li><a href="omnie.html">O mnie</a></li>
           <li><a href="kontakt.html">Kontakt</a></li>
@@ -34,7 +47,7 @@
 
   <main>
 
-    <!-- Podmenu galerii -->
+    <!-- PODMENU GALERII -->
     <nav class="gallery-submenu">
       <ul>
         <li><a href="#produkty-lifestyle">Produkt lifestyle</a></li>
@@ -42,544 +55,32 @@
         <li><a href="#biznesowe">Biznesowe</a></li>
         <li><a href="#portrety">Portrety</a></li>
         <li><a href="#grafika-uzytkowa">Grafika użytkowa</a></li>
-        <!--<li><a href="#swiat-wokol">Świat wokół mnie</a></li>-->
       </ul>
     </nav>
 
-
+    <!-- GALERIA -->
     <section id="galeria">
-      <div class="section wrap" id="produkty-lifestyle">
-        <!--<div class="wrap" id="produkty-lifestyle">
-          <h2>Produkty wizerunkowo</h2>
-        </div>-->
+      <div class="section">
+        <div id="gallery-root" class="gallery-root" aria-live="polite"></div>
       </div>
 
-      <div class="gallery" id="gallery">
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-40.jpg" alt="ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-7.jpg" alt="ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-8.jpg" alt="ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-9.jpg" alt="ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-10.jpg" alt="ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-63.jpg" alt="ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-73.jpg" alt="SHOP IN SHOP - wprowadzenie nowych rozwiązań sprzedażowych do oferty - sesja zdjęciowa." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-11.jpg" alt="ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-36.jpg" alt="4ALL - kołek rozporowy do wielu podłoży - sesja zdjęciowa do kampani reklamowej. Założenia: na jednym ujęciu widoczny, użytkownik, narzędzie, produkt." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-13.jpg" alt="ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-14.jpg" alt="ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-15.jpg" alt="ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-32.jpg" alt="KOTWY MECHANICZNE - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-31.jpg" alt="KOTWY MECHANICZNE - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-62.jpg" alt="KOTWY MECHANICZNE - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-26.jpg" alt="ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-22.jpg" alt="ELEKTRONARZĘDZIA - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-56.jpg" alt="KOTWY MECHANICZNE - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-44.jpg" alt="WIERTŁA - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-53.jpg" alt="SHOP IN SHOP - wprowadzenie nowych rozwiązań sprzedażowych do oferty - sesja zdjęciowa." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-69.jpg" alt="NOWY SYSTEM SKRZYNEK MODUŁOWYCH - przeznaczone do organizowania, transportowania i ochrony narzędzi - sesja zdjęciowa." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-21.jpg" alt="ELEKTRONARZĘDZIA - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-23.jpg" alt="ELEKTRONARZĘDZIA - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-65.jpg" alt="NOWY SYSTEM SKRZYNEK MODUŁOWYCH - przeznaczone do organizowania, transportowania i ochrony narzędzi - sesja zdjęciowa." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-24.jpg" alt="WIERTŁA - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-66.jpg" alt="NOWY SYSTEM SKRZYNEK MODUŁOWYCH - przeznaczone do organizowania, transportowania i ochrony narzędzi - sesja zdjęciowa." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-70.jpg" alt="ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu." loading="lazy">
-        </figure>
-        <!-- dodaj kolejne zdjęcia -->
-      </div>
+      <!-- LIGHTBOX -->
+      <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-hidden="true">
 
+        <button class="lightbox-close" aria-label="Zamknij podgląd">&times;</button>
+        <button class="lightbox-prev" aria-label="Poprzednie zdjęcie">&#10094;</button>
+        <button class="lightbox-next" aria-label="Następne zdjęcie">&#10095;</button>
 
-      <div class="section wrap" id="produkty-klasycznie">
-        <!--<div class="wrap" id="produkty-klasycznie">
-          <h2>Produkty studyjnie</h2>
-        </div>-->
-      </div>
-
-      <div class="gallery" id="gallery">
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-lifestyle-1.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-2.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-lifestyle-2.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-3.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-81.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-4.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-lifestyle-5.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-6.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-lifestyle-4.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-7.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-82.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-8.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-9.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-lifestyle-39.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-11.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-12.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-lifestyle-33.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-79.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-72.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-15.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-70.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-16.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-lifestyle-38.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-66.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-75.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-18.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-13.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-73.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-83.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-10.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-lifestyle-29.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-49.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-lifestyle-3.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-klasycznie-74.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-klasycznie/ZP-produkty-lifestyle-17.jpg" alt="" loading="lazy">
-        </figure>
-        <!-- dodaj kolejne zdjęcia -->
-      </div>
-
-
-      <div class="section wrap" id="biznesowe">
-        <!--<div class="wrap" id="biznesowe">
-          <h2>Ludzie</h2>
-        </div>-->
-      </div>
-
-      <div class="gallery" id="gallery">
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-1.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-18.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-16.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-13.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-23.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-14.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-8.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-22.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-30.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-20.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-29.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-19.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-12.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-9.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-26.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-17.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-7.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-24.jpg" alt="" loading="lazy">
-        </figure>
-        <!-- dodaj kolejne zdjęcia -->
-      </div>
-
-
-      <div class="section wrap" id="portrety">
-        <!--<div class="wrap" id="portrety">
-          <h2>Przyroda</h2>
-        </div>-->
-      </div>
-
-      <div class="gallery" id="gallery">
-        <figure class="item">
-          <img src="img/portrety/ZP-portrety-9.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-portrety-6.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-portrety-5.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-portrety-7.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-DOM-portrety-6.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-DOM-portrety-3.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-portrety-3.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-DOM-portrety-15.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-portrety-17.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-portrety-19.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-portrety-12.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-portrety-8.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-DOM-portrety-5.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-DOM-portrety-9.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-portrety-14.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-portrety-11.jpg" alt="" loading="lazy">
-        </figure>
-        <!-- dodaj kolejne zdjęcia -->
-      </div>
-
-
-      <div class="section wrap" id="grafika-uzytkowa">
-        <!--<div class="wrap" id="grafika-uzytkowa">
-          <h2>Makro</h2>
-        </div>-->
-      </div>
-
-      <div class="gallery" id="gallery">
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-5.jpg" alt="KATALOG - projekt." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-1.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-36.jpg" alt="OPAKOWANIE WALENTYNKOWE - projekt." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-2.jpg" alt="SAMOCHÓD SZKOLENIOWY - projekt grafiki, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-37.jpg" alt="OPAKOWANIE BOŻONARODZENIOWE - projekt." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-3.jpg" alt="SAMOCHÓD SZKOLENIOWY - projekt grafiki, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-4.jpg" alt="SAMOCHÓD SZKOLENIOWY - projekt grafiki, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-5.jpg" alt="SAMOCHÓD SZKOLENIOWY - projekt grafiki, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-6.jpg" alt="TABLICE REKLAMOWE - projekt grafiki, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-7.jpg" alt="LOGOTYP - Projekt na 100-lecie marki." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-2.jpg" alt="ETYKIETY - projekt etykiety na opakowania." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-26.jpg" alt="REKLAMA PRASOWA - projekt." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-8.jpg" alt="LOGOTYP - Projekt na 100-lecie marki." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-9.jpg" alt="LOGOTYP - Projekt na 100-lecie marki." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-31.jpg" alt="ULOTKA REKLAMOWA - projekt grafiki, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-10.jpg" alt="LOGOTYP - Projekt na 100-lecie marki." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-11.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-12.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-28.jpg" alt="ULOTKA REKLAMOWA - projekt grafiki, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-14.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-15.jpg" alt="KALENDARZ - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-49.jpg" alt="ULOTKA REKLAMOWA - projekt grafiki, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-16.jpg" alt="KALENDARZ - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-17.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-6.jpg" alt="ETYKIETY - projekt etykiety na opakowania." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-18.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-30.jpg" alt="ULOTKA REKLAMOWA - projekt grafiki, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-19.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-25.jpg" alt="REKLAMA PRASOWA - projekt, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-20.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-29.jpg" alt="ULOTKA REKLAMOWA - projekt grafiki, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-22.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-11.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-23.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-24.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-48.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-25.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-26.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-27.jpg" alt="KATALOGI - KEY VISUAL - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-14.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-28.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-29.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-grafika-uzytkowa-30.jpg" alt="KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne." loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-9.jpg" alt="ETYKIETY - projekt etykiety na opakowania." loading="lazy">
-        </figure>
-        <!-- dodaj kolejne zdjęcia -->
-      </div>
-
-      <!--
-      <div class="section wrap" id="swiat-wokol">
-      </div>
-
-      <div class="gallery" id="gallery">
-        <figure class="item">
-          <img src="img/zperspektywy-ania-1.jpg" alt="Opis zdjęcia 1" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/makro-zdjecie-3.jpg" alt="Opis zdjęcia 2" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/makro-zdjecie-1.jpg" alt="Opis zdjęcia 3" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/makro-zdjecie-2.jpg" alt="Opis zdjęcia 1" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/zperspektywy-ania-2.jpg" alt="Opis zdjęcia 2" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="images/photo3.jpg" alt="Opis zdjęcia 3" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="images/photo1.jpg" alt="Opis zdjęcia 1" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/zperspektywy-ania-3.jpg" alt="Opis zdjęcia 2" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="images/photo3.jpg" alt="Opis zdjęcia 3" loading="lazy">
-        </figure>
-      </div>
-      -->
-
-
-
-      <!-- Lightbox -->
-      <div class="lightbox" id="lightbox" aria-modal="true" role="dialog">
-        <span class="close" id="btnClose" aria-label="Zamknij" tabindex="0">&times;</span>
-        <span class="arrow left" id="btnPrev" aria-label="Poprzednie" tabindex="0">&#10094;</span>
-        <span class="arrow right" id="btnNext" aria-label="Następne" tabindex="0">&#10095;</span>
-        <div class="lightbox-inner" id="lightboxInner">
-          <img id="lightboxImg" alt="">
-          <div class="caption" id="caption"></div>
+        <div class="lightbox-inner">
+          <img id="lightbox-img" alt="">
+          <div class="caption" id="lightbox-caption"></div>
         </div>
       </div>
 
     </section>
 
-
-
-
-
     <section id="oferta" class="section wrap">
       <div class="wrap">
-
-
         <h2>Przykładowe pakiety</h2>
         <div class="price-boxes">
           <div class="price-box">
@@ -693,41 +194,40 @@
             </div>
           </div>
         </div>
-
-
-
-
       </div>
     </section>
 
-    <section id="kontakt" class="section wrap">
-      <div class="wrap">
-        <h2>Kontakt</h2>
-        <p class="desc">Napisz, jakiego efektu szukasz — przygotuję propozycję dopasowaną do Ciebie.</p>
-        <ul class="contact-list">
-          <li><strong>E‑mail:</strong> <a class="links-2" href="mailto:zperspektywyjoanny@outlook.com">zperspektywyjoanny@outlook.com</a></li>
-          <!--<li><strong>Instagram:</strong> 
-            <a class="links-2" href="https://instagram.com/zperspektywy" target="_blank" rel="noopener">@zperspektywy</a>
-          </li>-->
-          <li><strong>Lokalizacja:</strong> Walim, Polska</li>
-          <li><strong>Działam:</strong> lokalnie i ogólnopolsko</li>
-        </ul>
-      </div>
+    <section id="kontakt" class="section">
+          <div class="wrap">
+            <h2>Kontakt</h2>
+            <p class="desc">Napisz, jakiego efektu szukasz — przygotuję propozycję dopasowaną do Ciebie.</p>
+            <ul class="contact-list">
+              <li><strong>E‑mail:</strong> 
+                <a class="links-2" href="mailto:zperspektywyjoanny@outlook.com">zperspektywyjoanny@outlook.com</a></li>
+              <!--<li><strong>Instagram:</strong> 
+                <a class="links-2" href="https://instagram.com/zperspektywy" target="_blank" rel="noopener">@zperspektywy</a>
+              </li>-->
+              <li><strong>Lokalizacja:</strong> Walim, Polska</li>
+              <li><strong>Działam:</strong> lokalnie i ogólnopolsko</li>
+            </ul>
+          </div>
     </section>
+
   </main>
 
-  <div id="lightbox" class="lightbox" hidden aria-modal="true" role="dialog">
-    <button class="lightbox-close" aria-label="Zamknij podgląd">×</button>
-    <img id="lightbox-img" alt="">
-  </div>
-
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="wrap">
       <small>© Z Perspektywy — fotografia i projektowanie</small>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- Skrypty globalne -->
+  <script src="js/script.js"></script>
+
+  <!-- Skrypt galerii -->
+  <script src="js/gallery.js" defer></script>
+
 </body>
 
 </html>

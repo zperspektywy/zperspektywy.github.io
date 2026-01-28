@@ -1,0 +1,458 @@
+{
+  "categories": [
+    {
+      "id": "produkty-lifestyle",
+      "title": "Produkty lifestyle",
+      "items": [
+        {
+          "id": "pl-40",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-40",
+          "alt": "ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-7",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-7",
+          "alt": "ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-8",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-8",
+          "alt": "ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-9",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-9",
+          "alt": "ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-10",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-10",
+          "alt": "ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-63",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-63",
+          "alt": "ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-73",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-73",
+          "alt": "SHOP IN SHOP - wprowadzenie nowych rozwiązań sprzedażowych do oferty - sesja zdjęciowa."
+        },
+        {
+          "id": "pl-11",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-11",
+          "alt": "ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-36",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-36",
+          "alt": "4ALL - kołek rozporowy do wielu podłoży - sesja zdjęciowa do kampani reklamowej. Założenia: na jednym ujęciu widoczny, użytkownik, narzędzie, produkt."
+        },
+        {
+          "id": "pl-13",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-13",
+          "alt": "ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-14",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-14",
+          "alt": "ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-15",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-15",
+          "alt": "ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-32",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-32",
+          "alt": "KOTWY MECHANICZNE - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-31",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-31",
+          "alt": "KOTWY MECHANICZNE - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-62",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-62",
+          "alt": "KOTWY MECHANICZNE - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-26",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-26",
+          "alt": "ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-22",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-22",
+          "alt": "ELEKTRONARZĘDZIA - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-56",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-56",
+          "alt": "KOTWY MECHANICZNE - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-44",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-44",
+          "alt": "WIERTŁA - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-53",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-53",
+          "alt": "SHOP IN SHOP - wprowadzenie nowych rozwiązań sprzedażowych do oferty - sesja zdjęciowa."
+        },
+        {
+          "id": "pl-69",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-69",
+          "alt": "NOWY SYSTEM SKRZYNEK MODUŁOWYCH - przeznaczone do organizowania, transportowania i ochrony narzędzi - sesja zdjęciowa."
+        },
+        {
+          "id": "pl-21",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-21",
+          "alt": "ELEKTRONARZĘDZIA - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-23",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-23",
+          "alt": "ELEKTRONARZĘDZIA - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-65",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-65",
+          "alt": "NOWY SYSTEM SKRZYNEK MODUŁOWYCH - przeznaczone do organizowania, transportowania i ochrony narzędzi - sesja zdjęciowa."
+        },
+        {
+          "id": "pl-24",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-24",
+          "alt": "WIERTŁA - sesja zdjęciowa produktów w użyciu."
+        },
+        {
+          "id": "pl-66",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-66",
+          "alt": "NOWY SYSTEM SKRZYNEK MODUŁOWYCH - przeznaczone do organizowania, transportowania i ochrony narzędzi - sesja zdjęciowa."
+        },
+        {
+          "id": "pl-70",
+          "basePath": "img/produkty-lifestyle/ZP-produkty-lifestyle-70",
+          "alt": "ELEKTRONARZĘDZIA BEZPRZEWODOWE - wprowadzenie nowej grupy produktowej do oferty - sesja zdjęciowa produktów w użyciu."
+        }
+      ]
+    },
+    {
+      "id": "produkty-klasycznie",
+      "title": "Produkty klasycznie",
+      "items": [
+        { "id": "pk-1", "basePath": "img/produkty-klasycznie/ZP-produkty-lifestyle-1", "alt": "" },
+        { "id": "pk-2", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-2", "alt": "" },
+        { "id": "pk-3", "basePath": "img/produkty-klasycznie/ZP-produkty-lifestyle-2", "alt": "" },
+        { "id": "pk-4", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-3", "alt": "" },
+        { "id": "pk-81", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-81", "alt": "" },
+        { "id": "pk-4b", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-4", "alt": "" },
+        { "id": "pk-5", "basePath": "img/produkty-klasycznie/ZP-produkty-lifestyle-5", "alt": "" },
+        { "id": "pk-6", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-6", "alt": "" },
+        { "id": "pk-4c", "basePath": "img/produkty-klasycznie/ZP-produkty-lifestyle-4", "alt": "" },
+        { "id": "pk-7", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-7", "alt": "" },
+        { "id": "pk-82", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-82", "alt": "" },
+        { "id": "pk-8", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-8", "alt": "" },
+        { "id": "pk-9", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-9", "alt": "" },
+        { "id": "pk-39", "basePath": "img/produkty-klasycznie/ZP-produkty-lifestyle-39", "alt": "" },
+        { "id": "pk-11", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-11", "alt": "" },
+        { "id": "pk-12", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-12", "alt": "" },
+        { "id": "pk-33", "basePath": "img/produkty-klasycznie/ZP-produkty-lifestyle-33", "alt": "" },
+        { "id": "pk-79", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-79", "alt": "" },
+        { "id": "pk-72", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-72", "alt": "" },
+        { "id": "pk-15", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-15", "alt": "" },
+        { "id": "pk-70", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-70", "alt": "" },
+        { "id": "pk-16", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-16", "alt": "" },
+        { "id": "pk-38", "basePath": "img/produkty-klasycznie/ZP-produkty-lifestyle-38", "alt": "" },
+        { "id": "pk-66", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-66", "alt": "" },
+        { "id": "pk-75", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-75", "alt": "" },
+        { "id": "pk-18", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-18", "alt": "" },
+        { "id": "pk-13", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-13", "alt": "" },
+        { "id": "pk-73", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-73", "alt": "" },
+        { "id": "pk-83", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-83", "alt": "" },
+        { "id": "pk-10", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-10", "alt": "" },
+        { "id": "pk-29", "basePath": "img/produkty-klasycznie/ZP-produkty-lifestyle-29", "alt": "" },
+        { "id": "pk-49", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-49", "alt": "" },
+        { "id": "pk-3b", "basePath": "img/produkty-klasycznie/ZP-produkty-lifestyle-3", "alt": "" },
+        { "id": "pk-74", "basePath": "img/produkty-klasycznie/ZP-produkty-klasycznie-74", "alt": "" },
+        { "id": "pk-17", "basePath": "img/produkty-klasycznie/ZP-produkty-lifestyle-17", "alt": "" }
+      ]
+    },
+    {
+      "id": "biznesowe",
+      "title": "Biznesowe",
+      "items": [
+        { "id": "biz-1", "basePath": "img/biznesowe/ZP-biznesowe-1", "alt": "" },
+        { "id": "biz-18", "basePath": "img/biznesowe/ZP-biznesowe-18", "alt": "" },
+        { "id": "biz-16", "basePath": "img/biznesowe/ZP-biznesowe-16", "alt": "" },
+        { "id": "biz-13", "basePath": "img/biznesowe/ZP-biznesowe-13", "alt": "" },
+        { "id": "biz-23", "basePath": "img/biznesowe/ZP-biznesowe-23", "alt": "" },
+        { "id": "biz-14", "basePath": "img/biznesowe/ZP-biznesowe-14", "alt": "" },
+        { "id": "biz-8", "basePath": "img/biznesowe/ZP-biznesowe-8", "alt": "" },
+        { "id": "biz-22", "basePath": "img/biznesowe/ZP-biznesowe-22", "alt": "" },
+        { "id": "biz-30", "basePath": "img/biznesowe/ZP-biznesowe-30", "alt": "" },
+        { "id": "biz-20", "basePath": "img/biznesowe/ZP-biznesowe-20", "alt": "" },
+        { "id": "biz-29", "basePath": "img/biznesowe/ZP-biznesowe-29", "alt": "" },
+        { "id": "biz-19", "basePath": "img/biznesowe/ZP-biznesowe-19", "alt": "" },
+        { "id": "biz-12", "basePath": "img/biznesowe/ZP-biznesowe-12", "alt": "" },
+        { "id": "biz-9", "basePath": "img/biznesowe/ZP-biznesowe-9", "alt": "" },
+        { "id": "biz-26", "basePath": "img/biznesowe/ZP-biznesowe-26", "alt": "" },
+        { "id": "biz-17", "basePath": "img/biznesowe/ZP-biznesowe-17", "alt": "" },
+        { "id": "biz-7", "basePath": "img/biznesowe/ZP-biznesowe-7", "alt": "" },
+        { "id": "biz-24", "basePath": "img/biznesowe/ZP-biznesowe-24", "alt": "" }
+      ]
+    },
+    {
+      "id": "portrety",
+      "title": "Portrety",
+      "items": [
+        { "id": "por-9", "basePath": "img/portrety/ZP-portrety-9", "alt": "" },
+        { "id": "por-6", "basePath": "img/portrety/ZP-portrety-6", "alt": "" },
+        { "id": "por-5", "basePath": "img/portrety/ZP-portrety-5", "alt": "" },
+        { "id": "por-7", "basePath": "img/portrety/ZP-portrety-7", "alt": "" },
+        { "id": "por-dom-6", "basePath": "img/portrety/ZP-DOM-portrety-6", "alt": "" },
+        { "id": "por-dom-3", "basePath": "img/portrety/ZP-DOM-portrety-3", "alt": "" },
+        { "id": "por-3", "basePath": "img/portrety/ZP-portrety-3", "alt": "" },
+        { "id": "por-dom-15", "basePath": "img/portrety/ZP-DOM-portrety-15", "alt": "" },
+        { "id": "por-17", "basePath": "img/portrety/ZP-portrety-17", "alt": "" },
+        { "id": "por-19", "basePath": "img/portrety/ZP-portrety-19", "alt": "" },
+        { "id": "por-12", "basePath": "img/portrety/ZP-portrety-12", "alt": "" },
+        { "id": "por-8", "basePath": "img/portrety/ZP-portrety-8", "alt": "" },
+        { "id": "por-dom-5", "basePath": "img/portrety/ZP-DOM-portrety-5", "alt": "" },
+        { "id": "por-dom-9", "basePath": "img/portrety/ZP-DOM-portrety-9", "alt": "" },
+        { "id": "por-14", "basePath": "img/portrety/ZP-portrety-14", "alt": "" },
+        { "id": "por-11", "basePath": "img/portrety/ZP-portrety-11", "alt": "" }
+      ]
+    },
+    {
+      "id": "grafika-uzytkowa",
+      "title": "Grafika użytkowa",
+      "items": [
+        {
+          "id": "gu-woj-5",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-5",
+          "alt": "KATALOG - projekt."
+        },
+        {
+          "id": "gu-1",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-1",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-woj-36",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-36",
+          "alt": "OPAKOWANIE WALENTYNKOWE - projekt."
+        },
+        {
+          "id": "gu-2",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-2",
+          "alt": "SAMOCHÓD SZKOLENIOWY - projekt grafiki, przygotowanie do druku."
+        },
+        {
+          "id": "gu-woj-37",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-37",
+          "alt": "OPAKOWANIE BOŻONARODZENIOWE - projekt."
+        },
+        {
+          "id": "gu-3",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-3",
+          "alt": "SAMOCHÓD SZKOLENIOWY - projekt grafiki, przygotowanie do druku."
+        },
+        {
+          "id": "gu-4",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-4",
+          "alt": "SAMOCHÓD SZKOLENIOWY - projekt grafiki, przygotowanie do druku."
+        },
+        {
+          "id": "gu-5",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-5",
+          "alt": "SAMOCHÓD SZKOLENIOWY - projekt grafiki, przygotowanie do druku."
+        },
+        {
+          "id": "gu-6",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-6",
+          "alt": "TABLICE REKLAMOWE - projekt grafiki, przygotowanie do druku."
+        },
+        {
+          "id": "gu-7",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-7",
+          "alt": "LOGOTYP - Projekt na 100-lecie marki."
+        },
+        {
+          "id": "gu-woj-2",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-2",
+          "alt": "ETYKIETY - projekt etykiety na opakowania."
+        },
+        {
+          "id": "gu-woj-26",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-26",
+          "alt": "REKLAMA PRASOWA - projekt."
+        },
+        {
+          "id": "gu-8",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-8",
+          "alt": "LOGOTYP - Projekt na 100-lecie marki."
+        },
+        {
+          "id": "gu-9",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-9",
+          "alt": "LOGOTYP - Projekt na 100-lecie marki."
+        },
+        {
+          "id": "gu-woj-31",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-31",
+          "alt": "ULOTKA REKLAMOWA - projekt grafiki, przygotowanie do druku."
+        },
+        {
+          "id": "gu-10",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-10",
+          "alt": "LOGOTYP - Projekt na 100-lecie marki."
+        },
+        {
+          "id": "gu-11",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-11",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku."
+        },
+        {
+          "id": "gu-12",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-12",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-woj-28",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-28",
+          "alt": "ULOTKA REKLAMOWA - projekt grafiki, przygotowanie do druku."
+        },
+        {
+          "id": "gu-14",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-14",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-15",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-15",
+          "alt": "KALENDARZ - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-woj-49",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-49",
+          "alt": "ULOTKA REKLAMOWA - projekt grafiki, przygotowanie do druku."
+        },
+        {
+          "id": "gu-16",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-16",
+          "alt": "KALENDARZ - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-17",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-17",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-woj-6",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-6",
+          "alt": "ETYKIETY - projekt etykiety na opakowania."
+        },
+        {
+          "id": "gu-18",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-18",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-woj-30",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-30",
+          "alt": "ULOTKA REKLAMOWA - projekt grafiki, przygotowanie do druku."
+        },
+        {
+          "id": "gu-19",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-19",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-woj-25",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-25",
+          "alt": "REKLAMA PRASOWA - projekt, przygotowanie do druku."
+        },
+        {
+          "id": "gu-20",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-20",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-woj-29",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-29",
+          "alt": "ULOTKA REKLAMOWA - projekt grafiki, przygotowanie do druku."
+        },
+        {
+          "id": "gu-22",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-22",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-woj-11",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-11",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-23",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-23",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku."
+        },
+        {
+          "id": "gu-24",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-24",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku."
+        },
+        {
+          "id": "gu-woj-48",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-48",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-25",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-25",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku."
+        },
+        {
+          "id": "gu-26",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-26",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-27",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-27",
+          "alt": "KATALOGI - KEY VISUAL - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-woj-14",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-14",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-28",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-28",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-29",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-29",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku."
+        },
+        {
+          "id": "gu-30",
+          "basePath": "img/grafika-uzytkowa/ZP-grafika-uzytkowa-30",
+          "alt": "KATALOG - projekt, skład, przygotowanie do druku. Sesje fotograficzne."
+        },
+        {
+          "id": "gu-woj-9",
+          "basePath": "img/grafika-uzytkowa/ZP-WOJ-grafika-uzytkowa-9",
+          "alt": "ETYKIETY - projekt etykiety na opakowania."
+        }
+      ]
+    }
+  ]
+}

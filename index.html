@@ -5,20 +5,32 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Z Perspektywy — fotografia i projektowanie</title>
+
   <link rel="icon" type="image/png" href="img/favicon.png">
   <meta name="description"
     content="Naturalne portrety, dopracowane produkty i spójny branding. Studio Z Perspektywy tworzy fotografię oraz materiały marketingowe i cyfrowe dla marek i klientów indywidualnych, wspierając ich w budowaniu skutecznej komunikacji wizualnej.">
-  <link href="style.css" rel="stylesheet" />
+
+  <!-- Style globalne -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <meta name="google-site-verification" content="8-YxcQ3zXNSBMWLIP1CD0BsXAZBFiWoGDUJKbuBk0c4" />
+
+  <!-- Style galerii -->
+  <link rel="stylesheet" href="css/gallery.css">
 </head>
 
 <body>
+
+  <!-- HEADER -->
   <header class="site-header">
     <div class="wrap">
-      <a href="#"><img src="img/z-perspektywy-logo.png" class="logo" alt="Z PERSPEKTYWY"></a>
+      <a href="index.html">
+        <img src="img/z-perspektywy-logo.png" class="logo" alt="Z PERSPEKTYWY">
+      </a>
+
       <nav class="site-nav" aria-label="Główna nawigacja">
         <button class="nav-toggle" aria-label="Otwórz menu">
           <span class="hamburger"></span>
@@ -34,6 +46,8 @@
   </header>
 
   <main>
+
+    <!-- HERO -->
     <section class="hero">
       <div class="wrap hero-grid">
         <div class="hero-content">
@@ -45,18 +59,14 @@
             <a class="btn secondary" href="galeria.html">Zobacz portfolio</a>
           </div>
         </div>
-        <!--<picture>
-          <img src="img/makro-zdjecie-4.jpg" alt="Portret studyjny — Z Perspektywy" class="hero-image">
-        </picture>-->
       </div>
     </section>
 
-
-
-
+    <!-- O MNIE -->
     <section id="omnie" class="section wrap about-two-cols">
       <div class="wrap about-left">
         <h2>Studio „Z Perspektywy”</h2>
+
         <div class="info-block">
           <h3>Z mojej perspektywy</h3>
           <p>
@@ -71,7 +81,6 @@
 
         <div class="info-block">
           <h3>Oferuję</h3>
-          <p></p>
           <ul>
             <li>portrety indywidualne</li>
             <li>sesje rodzinne</li>
@@ -79,150 +88,241 @@
             <li>fotografię dziecięcą</li>
             <li>zdjęcia pokazujące więź człowieka i pupila</li>
             <li>packshoty i zdjęcia produktowe</li>
-            <li>grafika użytkowa</li>
+            <li>projektowanie wizualne i techniczne stron internetowych</li>
+            <li>projektowanie graficzne</li>
           </ul>
         </div>
       </div>
 
-        <div class="about-right">
-          <img src="img/asia_11.jpg" alt="Joanna – Z Perspektywy">
-          <h1>„Twoja historia zasługuje na piękne kadry”</h1>
-        </div>
-
-      
+      <div class="about-right">
+        <img src="img/ZP-portrety-5.webp" alt="Joanna – Z Perspektywy">
+        <h1>„Twoja historia zasługuje na piękne kadry”</h1>
+      </div>
     </section>
 
-
-
-
+    <!-- MINI GALERIA NA STRONIE GŁÓWNEJ -->
     <section id="galeria">
-      <div class="section wrap">
+      <div class="section">
         <div class="wrap">
           <h2>Wybrane prace</h2>
         </div>
+
+        <div id="gallery-root-index" class="gallery-root" aria-live="polite"></div>
       </div>
 
-      <div class="gallery" id="gallery">
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-21.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-15.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-26.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-43.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-1.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-34.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-8.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-18.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/biznesowe/ZP-biznesowe-22.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-portrety-17.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/portrety/ZP-portrety-9.jpg" alt="" loading="lazy">
-        </figure>
-        <figure class="item">
-          <img src="img/produkty-lifestyle/ZP-produkty-lifestyle-7.jpg" alt="" loading="lazy">
-        </figure>
-        <!-- dodaj kolejne zdjęcia -->
-      </div>
+      <!-- LIGHTBOX (ten sam co w galeria.html) -->
+      <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-hidden="true">
+        <button class="lightbox-close" aria-label="Zamknij podgląd">&times;</button>
+        <button class="lightbox-prev" aria-label="Poprzednie zdjęcie">&#10094;</button>
+        <button class="lightbox-next" aria-label="Następne zdjęcie">&#10095;</button>
 
-      <!-- Lightbox -->
-      <div class="lightbox" id="lightbox" aria-modal="true" role="dialog">
-        <span class="close" id="btnClose" aria-label="Zamknij" tabindex="0">&times;</span>
-        <span class="arrow left" id="btnPrev" aria-label="Poprzednie" tabindex="0">&#10094;</span>
-        <span class="arrow right" id="btnNext" aria-label="Następne" tabindex="0">&#10095;</span>
-        <div class="lightbox-inner" id="lightboxInner">
-          <img id="lightboxImg" alt="">
-          <div class="caption" id="caption"></div>
+        <div class="lightbox-inner">
+          <img id="lightbox-img" alt="">
+          <div class="caption" id="lightbox-caption"></div>
         </div>
       </div>
-
     </section>
 
-
-
+    <!-- OPINIE -->
     <section id="opinie" class="section wrap testimonials">
       <div class="wrap">
-
         <h2>Opinie klientów</h2>
+
         <div class="testimonials-grid">
           <div class="testimonial">
             <img src="img/opinie-klientow-ikonka2.png" alt="Klient 1">
-            <p>
-              „Sesja była niesamowita – Joanna potrafi uchwycić emocje w sposób naturalny i elegancki.
-              Zdjęcia stały się dla nas piękną pamiątką.”
-            </p>
+            <p>„Sesja była niesamowita – Joanna potrafi uchwycić emocje w sposób naturalny i elegancki.”</p>
             <span class="author">— Anna N.</span>
           </div>
+
           <div class="testimonial">
             <img src="img/opinie-klientow-ikonka2.png" alt="Klient 2">
-            <p>
-              „Profesjonalizm i kreatywność w jednym. Zdjęcia produktowe idealnie oddają charakter naszej marki
-              i świetnie sprawdzają się w e‑commerce.”
-            </p>
+            <p>„Profesjonalizm i kreatywność w jednym. Zdjęcia produktowe idealnie oddają charakter naszej marki.”</p>
             <span class="author">— Krzysztof K.</span>
           </div>
+
           <div class="testimonial">
             <img src="img/opinie-klientow-ikonka2.png" alt="Klient 3">
-            <p>
-              „Atmosfera podczas sesji była swobodna i przyjazna. Dzięki temu zdjęcia są autentyczne,
-              a efekt końcowy przerósł nasze oczekiwania.”
-            </p>
+            <p>„Atmosfera podczas sesji była swobodna i przyjazna. Efekt końcowy przerósł nasze oczekiwania.”</p>
             <span class="author">— Joanna B.</span>
           </div>
         </div>
-
       </div>
     </section>
 
-
+    <!-- KONTAKT -->
     <section id="kontakt" class="section wrap">
       <div class="wrap">
         <h2>Kontakt</h2>
         <p class="desc">Napisz, jakiego efektu szukasz — przygotuję propozycję dopasowaną do Ciebie.</p>
+
         <ul class="contact-list">
-          <li><strong>E‑mail:</strong> 
-            <a class="links-2" href="mailto:zperspektywyjoanny@outlook.com">zperspektywyjoanny@outlook.com</a></li>
-          <!--<li><strong>Instagram:</strong> 
-            <a class="links-2" href="https://instagram.com/zperspektywy" target="_blank" rel="noopener">@zperspektywy</a>
-          </li>-->
+          <li><strong>E‑mail:</strong>
+            <a class="links-2" href="mailto:zperspektywyjoanny@outlook.com">zperspektywyjoanny@outlook.com</a>
+          </li>
           <li><strong>Lokalizacja:</strong> Walim, Polska</li>
           <li><strong>Działam:</strong> lokalnie i ogólnopolsko</li>
         </ul>
       </div>
     </section>
+
   </main>
 
-  <div id="lightbox" class="lightbox" hidden aria-modal="true" role="dialog">
-    <button class="lightbox-close" aria-label="Zamknij podgląd">×</button>
-    <img id="lightbox-img" alt="">
-  </div>
-
-
-
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="wrap">
-      <small>© Z Perspektywy — fotografia i projektowanie<!-- • Z Perspektywy — projekt i realizacja--></small>
+      <small>© Z Perspektywy — fotografia i projektowanie</small>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- Skrypty globalne -->
+  <script src="js/script.js"></script>
+
+  <!-- Skrypt galerii (lightbox + nawigacja) -->
+  <script src="js/gallery.js"></script>
+
+  <script>
+  (function () {
+    const JSON_URL = 'data/gallery.json';
+    const root = document.getElementById('gallery-root-index');
+
+    if (!root) return;
+
+    fetch(JSON_URL)
+      .then(res => res.json())
+      .then(data => {
+        if (!data || !Array.isArray(data.categories)) return;
+
+        const allItems = data.categories.flatMap(cat => cat.items);
+
+        // 🔥 KOLEJNOŚĆ DEFINIUJESZ TUTAJ
+        const order = [
+          "img/produkty-lifestyle/ZP-produkty-lifestyle-21",
+          "img/produkty-lifestyle/ZP-produkty-lifestyle-15",
+          "img/produkty-lifestyle/ZP-produkty-lifestyle-26",
+          "img/produkty-lifestyle/ZP-produkty-lifestyle-44",
+          "img/biznesowe/ZP-biznesowe-1",
+          "img/produkty-lifestyle/ZP-produkty-lifestyle-36",
+          "img/biznesowe/ZP-biznesowe-8",
+          "img/biznesowe/ZP-biznesowe-17",
+          "img/biznesowe/ZP-biznesowe-23",
+          "img/portrety/ZP-portrety-17",
+          "img/portrety/ZP-portrety-9",
+          "img/produkty-lifestyle/ZP-produkty-lifestyle-7",
+        ];
+
+        // 🔥 MAPOWANIE — KOLEJNOŚĆ 1:1 Z LISTY "order"
+        const selected = order
+          .map(path => allItems.find(item => item.basePath === path))
+          .filter(Boolean);
+
+        const grid = document.createElement('div');
+        grid.className = 'gallery-grid';
+
+        selected.forEach((item, index) => {
+          const figure = document.createElement('figure');
+          figure.className = 'gallery-item';
+
+          const img = document.createElement('img');
+          const base = item.basePath;
+
+          img.src = `${base}-400.webp`;
+          img.srcset = `${base}-200.webp 200w, ${base}-400.webp 400w, ${base}-800.webp 800w`;
+          img.sizes = '(max-width: 600px) 50vw, (max-width: 1024px) 33vw, 25vw';
+          img.alt = item.alt || '';
+          img.loading = 'lazy';
+          img.decoding = 'async';
+          img.className = 'gallery-item__img';
+
+          img.dataset.full = `${base}-1600.webp`;
+          img.dataset.caption = item.alt || '';
+
+          img.addEventListener('load', () => {
+            img.dataset.loaded = 'true';
+          });
+
+          img.addEventListener('click', () => {
+            openLightbox(img.dataset.full, img.dataset.caption, index, selected);
+          });
+
+          figure.appendChild(img);
+          grid.appendChild(figure);
+        });
+
+        root.appendChild(grid);
+      });
+  })();
+</script>
+
+  <!-- MINI-GALERIA NA STRONIE GŁÓWNEJ 
+  <script>
+    (function () {
+      const JSON_URL = 'data/gallery.json';
+      const root = document.getElementById('gallery-root-index');
+
+      if (!root) return;
+
+      fetch(JSON_URL)
+        .then(res => res.json())
+        .then(data => {
+          if (!data || !Array.isArray(data.categories)) return;
+
+          const allItems = data.categories.flatMap(cat => cat.items);
+          const selected = allItems.filter(item =>
+          [
+          "img/produkty-lifestyle/ZP-produkty-lifestyle-26",
+          "img/produkty-lifestyle/ZP-produkty-lifestyle-36",
+          "img/produkty-lifestyle/ZP-produkty-lifestyle-15",
+          "img/produkty-lifestyle/ZP-produkty-lifestyle-21",
+          "img/produkty-lifestyle/ZP-produkty-lifestyle-44",
+          "img/biznesowe/ZP-biznesowe-1",
+          "img/produkty-lifestyle/ZP-produkty-lifestyle-34",
+          "img/biznesowe/ZP-biznesowe-18",
+          "img/biznesowe/ZP-biznesowe-22",
+          "img/portrety/ZP-portrety-17",
+          "img/portrety/ZP-portrety-15",
+          "img/produkty-lifestyle/ZP-produkty-lifestyle-7",
+          ].includes(item.basePath)
+          );
+
+          const grid = document.createElement('div');
+          grid.className = 'gallery-grid';
+
+          selected.forEach((item, index) => {
+            const figure = document.createElement('figure');
+            figure.className = 'gallery-item';
+
+            const img = document.createElement('img');
+            const base = item.basePath;
+
+            img.src = `${base}-400.webp`;
+            img.srcset = `${base}-200.webp 200w, ${base}-400.webp 400w, ${base}-800.webp 800w`;
+            img.sizes = '(max-width: 600px) 50vw, (max-width: 1024px) 33vw, 25vw';
+            img.alt = item.alt || '';
+            img.loading = 'lazy';
+            img.decoding = 'async';
+            img.className = 'gallery-item__img';
+
+            img.dataset.full = `${base}-1600.webp`;
+            img.dataset.caption = item.alt || '';
+
+            img.addEventListener('load', () => {
+              img.dataset.loaded = 'true';
+            });
+
+            img.addEventListener('click', () => {
+              openLightbox(img.dataset.full, img.dataset.caption, index, selected);
+            });
+
+            figure.appendChild(img);
+            grid.appendChild(figure);
+          });
+
+          root.appendChild(grid);
+        });
+    })();
+  </script>-->
+
 </body>
 
 </html>
