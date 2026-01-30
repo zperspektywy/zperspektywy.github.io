@@ -638,10 +638,10 @@ textarea:focus {
     }
 
     .hero-content {
-      h1 { font-size: 3.0rem; }
-      .lead { font-size: 20px;}
-      .idea { width: 75%; }
-      .first { width: 70%; }
+      h1 { font-size: 1.9rem; }
+      .lead { font-size: 17px;}
+      .idea { width: 75%; font-size: 3.0rem; }
+      .first { width: 70%; font-size: 20px; }
       
     }
 
@@ -670,7 +670,7 @@ textarea:focus {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 847px) {
   .gallery-submenu ul {
     flex-direction: column;
     gap: 16px;
@@ -678,14 +678,18 @@ textarea:focus {
 
   .hero-content {
     h1 {
-      font-size: 2.3rem;
+      font-size: 1.7rem;
     }
     .lead { font-size: 18px; }
     .idea { font-size: 3.0rem; }
   }
+
+    .btn {
+    margin-bottom: 10px;
+  }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 690px) {
   .grid { grid-template-columns: 1fr; }
   .hero-grid {   
     display: flex;
@@ -700,9 +704,8 @@ textarea:focus {
   .contact-icon { width: 34px; height: 34px; }
   .site-nav { padding: 5px;}
 
-  .hero,
-  .hero-kontakt {
-    background-image: url("../img/zdjecie-kontakt-mobile.webp"); /* ścieżka do zdjęcia */
+    .hero {
+    background-image: url("../img/zdjecie-kontakt-mobile.webp");
     background-color: rgba(0,0,0,0.0);
 
     .hero-image {
@@ -710,13 +713,19 @@ textarea:focus {
     }
   }
 
-  .hero-omnie {
+  .hero-omnie,
+  .hero-kontakt {
     background-image: url("../img/zdjecie-omnie-mobile.webp"); /* ścieżka do zdjęcia */
     background-color: rgba(0,0,0,0.0);
 
     .hero-image {
       margin: 0 auto;
     }
+  }
+
+  picture {
+    margin: 0 auto;
+    display: block;
   }
 
     .logo {
@@ -739,10 +748,10 @@ textarea:focus {
       align-items: flex-start;   /* lewa */
       text-align: left;
 
-      h1 { font-size: 2.7rem; }
-      .lead { font-size: 20px;}
-      .idea { width: 100%; }
-      .first { width: 100%; }
+      h1 { font-size: 2.0rem; }
+      .lead { font-size: 16px; line-height: 1.6;}
+      .idea { width: 90%; font-size: 2.2rem;}
+      .first { width: 90%; font-size: 16px; }
       
     }
 
@@ -750,6 +759,10 @@ textarea:focus {
       flex-direction: column;
       align-items: flex-start;
       gap: 0.5rem;
+    }
+
+    .hero-content {
+      padding: 30px;
     }
 }
 
@@ -763,6 +776,7 @@ textarea:focus {
 
   .hero-content {
       justify-content: center;   /* pion */
+      padding: 0px;
 
     h1 { font-size: 1.7rem; }
     .idea { font-size: 2.2rem; }
@@ -779,10 +793,13 @@ textarea:focus {
   .arrow.left { left: 20px; color: var(--accent); }
   .arrow.right { right: 20px; color: var(--accent); }
   .hero-content {
-    .idea, h1 { font-size: 1.7rem; }
+    .idea { font-size: 1.7rem; }
+    h1 { font-size: 1.4rem; }
     .first,
     .lead { font-size: 15px; }
     .kicker { font-size: 12px; }
   }
+
+  h2 { font-size: 21px; }
 
 }
