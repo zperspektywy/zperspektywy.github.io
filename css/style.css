@@ -793,21 +793,23 @@ textarea:focus {
   .arrow.left { left: 20px; color: var(--accent); }
   .arrow.right { right: 20px; color: var(--accent); }
   .hero-content {
-    .idea { font-size: 1.7rem; }
-    h1 { font-size: 1.4rem; }
+    h1 { font-size: 1.5rem; }
     .first,
     .lead { font-size: 15px; }
     .kicker { font-size: 12px; }
+    .idea { font-size: 1.9rem; }
   }
 
   h2 { font-size: 21px; }
+
+  .cta { display: flex; flex-direction: column; align-items: flex-start; margin-bottom: 10px;}
 
 }
 
 @media (max-width: 340px) {
   .hero-content {
-    h1 { font-size: 1.3rem;}
-    .idea { font-size: 1.4rem; }
+    h1 { font-size: 1.4rem;}
+    .idea { font-size: 1.6rem; }
     .kicker { font-size: 11px;}
     .first { font-size: 15px;}
   }
