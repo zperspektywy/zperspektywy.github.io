@@ -803,3 +803,11 @@ textarea:focus {
   h2 { font-size: 21px; }
 
 }
+
+@media (max-width: 340px) {
+  .hero-content {
+    .idea { font-size: 1.6rem; }
+    .kicker { font-size: 11px;}
+    .first { font-size: 15px;}
+  }
+}
