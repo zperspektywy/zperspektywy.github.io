@@ -764,8 +764,9 @@ textarea:focus {
   .hero-content {
       justify-content: center;   /* pion */
 
-    h1 { font-size: 2.0rem; }
-    .lead { font-size: 17px;}
+    h1 { font-size: 1.7rem; }
+    .idea { font-size: 2.2rem; }
+    .lead { font-size: 15px;}
       
     }
 }
@@ -778,7 +779,10 @@ textarea:focus {
   .arrow.left { left: 20px; color: var(--accent); }
   .arrow.right { right: 20px; color: var(--accent); }
   .hero-content {
-    .idea { font-size: 2.0rem; }
+    .idea, h1 { font-size: 1.7rem; }
+    .first,
+    .lead { font-size: 15px; }
+    .kicker { font-size: 12px; }
   }
 
 }
