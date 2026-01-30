@@ -518,6 +518,15 @@ textarea:focus {
   font-size: 14px;
 }
 
+.row-between {
+  display: flex;
+  justify-content: space-between; /* lewy ↔ prawy */
+  align-items: center;            /* wyrównanie w pionie */
+  width: 100%;
+}
+
+.gray { color: #808080;}
+
 /* ------------------------------------------------------ */
 /* ------------------ MEDIA QUERIES --------------------- */
 /* ------------------------------------------------------ */
@@ -528,8 +537,20 @@ textarea:focus {
 
 @media (max-width: 900px) {
   .hero-grid { 
-    grid-template-columns: 1fr; 
+    /*grid-template-columns: 2fr;*/
+    display: flex;
+    align-items: center;
+    gap: 4rem;
   }
+    .hero-content {
+    flex: 1;
+  }
+
+  .hero-grid picture {
+    flex: 1;
+    display: block;
+  }
+
   .site-nav ul { 
     display:none; 
     background: var(--bg); 
@@ -560,7 +581,7 @@ textarea:focus {
 
   #nav-links.open {
     display: block;
-    background: var(--bg);        /* Twoje tło – możesz zmienić */
+    background: var(--bg);        /* tło – można zmienić */
     border-radius: 3px;      /* zaokrąglenie rogów */
     padding: 1.0rem 0;       /* odstęp góra/dół */
   }
@@ -611,6 +632,42 @@ textarea:focus {
 .hamburger::after {
   top: 7px;
   }
+
+      .kicker {
+      font-size: 0.8rem;
+    }
+
+    .hero-content {
+      h1 { font-size: 3.0rem; }
+      .lead { font-size: 20px;}
+      .idea { width: 75%; }
+      .first { width: 70%; }
+      
+    }
+
+    .hero,
+    .hero-kontakt {
+    background-image: url("../img/zdjecie-kontakt-mobile.webp"); /* ścieżka do zdjęcia */
+    background-color: rgba(0,0,0,0.0);
+
+    /*.hero-image {
+      margin: 0 auto;
+    }*/
+  }
+
+  .hero-omnie {
+    background-image: url("../img/zdjecie-omnie-mobile.webp"); /* ścieżka do zdjęcia */
+    background-color: rgba(0,0,0,0.0);
+
+    /*.hero-image {
+      margin: 0 auto;
+    }*/
+  }
+
+  .hero-content {
+    width: 50%;
+    box-sizing: border-box;
+  }
 }
 
 @media (max-width: 768px) {
@@ -618,10 +675,25 @@ textarea:focus {
     flex-direction: column;
     gap: 16px;
   }
+
+  .hero-content {
+    h1 {
+      font-size: 2.3rem;
+    }
+    .lead { font-size: 18px; }
+    .idea { font-size: 3.0rem; }
+  }
 }
 
 @media (max-width: 640px) {
   .grid { grid-template-columns: 1fr; }
+  .hero-grid {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* wyśrodkowanie w pionie */
+    align-items: flex-start;   /* wyrównanie do lewej */
+    gap: 2rem;
+  }
   .card img { height: 220px; }
   .price-boxes { flex-direction: column; }
   .price-box { flex: 1 1 100%; text-align: left; }
@@ -648,27 +720,65 @@ textarea:focus {
   }
 
     .logo {
-    height: 20px;
+    height: 27px;
   }
 
     .btn {
     margin-bottom: 10px;
   }
+
+    .kicker {
+      font-size: 0.8rem;
+    }
+
+    .hero-content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;   /* pion */
+      align-items: flex-start;   /* lewa */
+      text-align: left;
+
+      h1 { font-size: 2.7rem; }
+      .lead { font-size: 20px;}
+      .idea { width: 100%; }
+      .first { width: 100%; }
+      
+    }
+
+    .row-between {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
 }
 
 @media (max-width: 420px) {
   .price-box { padding: 14px; }
   .price-box h3 { font-size: 1.15em; }
   .price-box p { font-size: 0.95em; }
-  .image-kontakt {  display: none; }
+  /*.image-kontakt {  display: none; }*/
+  .logo { height: 20px; }
+  .kicker { font-size: 0.8rem; }
+
+  .hero-content {
+      justify-content: center;   /* pion */
+
+    h1 { font-size: 2.0rem; }
+    .lead { font-size: 17px;}
+      
+    }
 }
 
-@media (max-width: 332px) {
+@media (max-width: 360px) {
   .hero-grid { grid-template-columns: 1fr; object-fit: cover; }
   .grid { grid-template-columns: 1fr; }
   .card img { height: 220px; }
   .site-nav { padding: 5px;}
   .arrow.left { left: 20px; color: var(--accent); }
   .arrow.right { right: 20px; color: var(--accent); }
+  .hero-content {
+    .idea { font-size: 2.0rem; }
+  }
 
 }
