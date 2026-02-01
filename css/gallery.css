@@ -189,6 +189,24 @@
   }
 }
 
+@media (max-width: 900px) {
+   .gallery-submenu {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    top: auto;
+  }
+
+  #produkty-lifestyle,
+  #produkty-klasycznie,
+  #biznesowe,
+  #portrety,
+  #grafika-uzytkowa {
+    scroll-margin-top: 60px;
+  }
+}
+
 @media (max-width: 768px) {
 .lightbox-prev,
 .lightbox-next {
@@ -213,20 +231,4 @@
   font-size: 2.0rem;
   color: var(--accent);
  }
-
-   .gallery-submenu {
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    position: relative;
-    top: auto;
-  }
-
-  #produkty-lifestyle,
-  #produkty-klasycznie,
-  #biznesowe,
-  #portrety,
-  #grafika-uzytkowa {
-    scroll-margin-top: 60px;
-  }
 }
