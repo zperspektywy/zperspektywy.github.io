@@ -800,6 +800,8 @@ textarea:focus {
     align-items: flex-start;
     margin-bottom: 10px;
   }
+
+    .links-2a { font-size: 14px; }
 }
 
 @media (max-width: 340px) {
@@ -808,7 +810,6 @@ textarea:focus {
   .hero-content .idea { font-size: 1.6rem; }
   .hero-content .kicker { font-size: 11px; }
   .hero-content .first { font-size: 15px; }
-  .links-2a { font-size: 14px; }
 }
 
 
