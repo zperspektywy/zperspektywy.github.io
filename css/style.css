@@ -534,6 +534,18 @@ textarea:focus {
 
 .gray { color: #808080;}
 
+.sygnet {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 5px;
+    border: 3px solid var(--line);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    margin: 40px auto 0;
+    display: block;
+}
+
 /* ------------------------------------------------------ */
 /* ------------------ MEDIA QUERIES --------------------- */
 /* ------------------------------------------------------ */
