@@ -659,7 +659,7 @@ textarea:focus {
   }
 
   .hero-omnie {
-    background-image: url("../img/zdjecie-omnie-mobile2.webp");
+    background-image: url("../img/zdjecie-omnie-mobile2-900px.webp");
     background-color: rgba(0,0,0,0.0);
   }
 }
@@ -731,9 +731,9 @@ textarea:focus {
 
   .kicker { font-size: 0.8rem; }
 
-  .hero-content h1 { font-size: 2.0rem; }
+  .hero-content h1 { font-size: 2.5rem; }
   .hero-content .lead { font-size: 16px; line-height: 1.6; width: 90%; }
-  .hero-content .idea { font-size: 2.2rem; width: 90%; }
+  .hero-content .idea { font-size: 2.5rem; width: 90%; }
   .hero-content .first { font-size: 16px; width: 90%; }
 
   .row-between {
