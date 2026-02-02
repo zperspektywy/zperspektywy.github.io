@@ -251,8 +251,10 @@ a { color: var(--accent); text-decoration: none; }
   height: 280px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid var(--line);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  border: 2px solid var(--text);
+  /*box-shadow: 0 6px 16px rgba(0,0,0,0.15);*/
+  outline: 5px solid var(--accent); /* drugie obramowanie */
+  outline-offset: 6px;      /* odstęp od pierwszego */
 }
 
 .about-right .tagline {
@@ -741,12 +743,12 @@ textarea:focus {
   }
 
   .about-right img {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid var(--line);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+   /* border: 3px solid var(--line);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);*/
   }
 }
 
@@ -771,8 +773,8 @@ textarea:focus {
   .about-right { font-size: 0.8rem; }
 
   .about-right img {
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
   }
 }
 
@@ -786,11 +788,11 @@ textarea:focus {
   .arrow.left { left: 20px; color: var(--accent); }
   .arrow.right { right: 20px; color: var(--accent); }
 
-  .hero-content h1 { font-size: 1.9rem; }
+  .hero-content h1 { font-size: 1.6rem; }
   .hero-content .first,
   .hero-content .lead { font-size: 15px; }
   .hero-content .kicker { font-size: 12px; }
-  .hero-content .idea { font-size: 1.9rem; }
+  .hero-content .idea { font-size: 1.6rem; }
 
   h2 { font-size: 21px; }
 
