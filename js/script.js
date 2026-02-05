@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /* WHATSAPP */
     const country = "48";
-    const number = "785534524";
+    const number = "698265623";
     const message = "Dzień%20dobry.%20Proszę%20o%20informację%20";
 
     const waLink = `https://wa.me/${country}${number}?text=${message}`;
@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const emailUser = "zperspektywyjoanny";
   const emailDomain = "outlook.com";
   const waCountry = "48";
-  const waNumber = "785534524";
+  const waNumber = "698265623";
 
   document.querySelectorAll(".contact-icons").forEach(box => {
 
