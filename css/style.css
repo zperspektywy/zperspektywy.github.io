@@ -834,6 +834,10 @@ textarea:focus {
     margin-bottom: 10px;
   }
 
+  .contact-list {
+    font-size: 14px;
+  }
+
     .links-2a { font-size: 14px; }
 }
 
